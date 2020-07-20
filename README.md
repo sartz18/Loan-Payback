@@ -5,9 +5,9 @@ Exploring publicly available data about people who need money (borrowers) with p
  This data set contains the following features:
 <br><br>
 <ul>
- <li>credit.policy: 1 if the customer meets the credit underwriting criteria of LendingClub.com, and 0 otherwise.
-<li>purpose: The purpose of the loan (takes values "credit_card", "debt_consolidation", "educational", "major_purchase", "small_business", and "all_other").
-<li>int.rate: The interest rate of the loan, as a proportion (a rate of 11% would be stored as 0.11). Borrowers judged by LendingClub.com to be more risky are assigned higher interest rates.
+ <li>credit.policy: 1 if the customer meets the credit underwriting criteria and 0 otherwise.
+<li>purpose: The purpose of the loan
+<li>int.rate: The interest rate of the loan, 
 <li>installment: The monthly installments owed by the borrower if the loan is funded.
 <li>log.annual.inc: The natural log of the self-reported annual income of the borrower.
 <li>dti: The debt-to-income ratio of the borrower (amount of debt divided by annual income).
